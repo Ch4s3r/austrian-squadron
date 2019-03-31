@@ -673,6 +673,11 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@fortawesome/fontawesome-pro@^5.7.2":
+  version "5.7.2"
+  resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-pro/-/fontawesome-pro-5.7.2.tgz#7455ec09f58d09ab4a638af57a7561d2a1d88da8"
+  integrity sha512-l9D5FTI18ixNC+WNY7d7hOQxt4aumSHJCGbFhbhG7mZpsvtY2Zm3hluoZgSyHLlG4yRRJRR3YriEwboChj6hFA==
+
 "@iamstarkov/listr-update-renderer@0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@iamstarkov/listr-update-renderer/-/listr-update-renderer-0.4.1.tgz#d7c48092a2dcf90fd672b6c8b458649cb350c77e"

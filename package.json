@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "serve production": "vue-cli-service build && serve -l 8080 dist",
-    "deploy production": "vue-cli-service build && pscp -r dist/* ch4s3r@ssh.austrian-squadron.at:/mnt/secure/nginx/www",
+    "deploy production": "vue-cli-service build && plink -ssh ssh.austrian-squadron.at rm -rf /mnt/secure/nginx/www/* && pscp -r dist/* ssh.austrian-squadron.at:/mnt/secure/nginx/www",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

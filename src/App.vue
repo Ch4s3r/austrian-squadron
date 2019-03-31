@@ -75,14 +75,14 @@ import { Component, Vue } from "vue-property-decorator";
 export default class App extends Vue {
   drawer = false;
   menu = [
-    { iconClass: "fal fa-home", title: "Home", link: "/" },
-    { iconClass: "fal fa-users", title: "Members", link: "/members" },
+    // { iconClass: "fal fa-home", title: "Home", link: "/" },
+    // { iconClass: "fal fa-users", title: "Members", link: "/members" },
     {
       iconClass: "fal fa-trophy-alt",
       title: "Hall of fame",
       link: "/hall-of-fame"
     },
-    { iconClass: "fal fa-bookmark", title: "About", link: "/about" }
+    { iconClass: "fal fa-bookmark", title: "About", link: "/" }
   ];
 }
 </script>

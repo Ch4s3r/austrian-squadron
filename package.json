@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "serve production": "vue-cli-service build && serve -l 8080 dist",
-    "deploy production": "vue-cli-service build && plink -ssh ssh.austrian-squadron.at rm -rf /mnt/secure/nginx/www/* && pscp -r dist/* ssh.austrian-squadron.at:/mnt/secure/nginx/www",
+    "deploy local network": "vue-cli-service build && plink -no-antispoof -ssh 192.168.0.10 rm -rf /mnt/secure/nginx/www/* && pscp -r dist/* 192.168.0.10:/mnt/secure/nginx/www && plink -no-antispoof -ssh 192.168.0.10 docker restart secure_nginx_1",
+    "deploy over internet": "vue-cli-service build && plink -no-antispoof -ssh ssh.austrian-squadron.at rm -rf /mnt/secure/nginx/www/* && pscp -r dist/* ssh.austrian-squadron.at:/mnt/secure/nginx/www && plink -no-antispoof -ssh 192.168.0.10 docker restart secure_nginx_1",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

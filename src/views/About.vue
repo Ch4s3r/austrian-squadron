@@ -33,7 +33,7 @@ export default class About extends Vue {
     {
       title: "Über uns",
       text:
-        "Austrian Squadron ist ein Verein aus Österreicherinnen und Österreichern, die mehrere Dinge verbindet. Partys, Lan-Partys, E-Sport und die daraus folgende Leidenschaft des Gamings. Gamerinnen und Gamer, Gelegenheitsspieler und Tryhards, Consolelover und PC Masterraceler, motivierte Leut und faule Hund, wir haben alles dabei! Hauptsache sie sind leiwand. Derzeit umfasst der Clan circa 80 Mitglieder . Das Ziel von Austrian Squadron ist es, nicht nur eine Gaming-Community aus Leuten aufzubauen, mit denen man gerne spielt, sondern auch im Real Life gemeinsam erinnerungswürdige Momente zu erleben.",
+        "Austrian Squadron ist ein Clan aus leiwanden Leuten, die mehrere Dinge verbindet. Partys, Lan-Partys, E-Sport und die daraus folgende Leidenschaft des Gamings. Gamerinnen und Gamer, Gelegenheitsspieler und Tryhards, Consolelover und PC Masterraceler, motivierte Leut und faule Hund, wir haben alles dabei! Hauptsache sie sind leiwand. Derzeit umfasst der Clan circa 80 Mitglieder . Das Ziel von Austrian Squadron ist es, nicht nur eine Gaming-Community aus Leuten aufzubauen, mit denen man gerne spielt, sondern auch im Real Life gemeinsam erinnerungswürdige Momente zu erleben.",
       img: require("@/assets/group_photo.webp")
     },
     {

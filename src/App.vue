@@ -1,10 +1,10 @@
 <template>
   <v-app
+    dark
     v-touch="{
       left: () => (drawer = true),
       right: () => (drawer = false)
     }"
-    dark
   >
     <v-toolbar app flat>
       <v-toolbar-side-icon large>

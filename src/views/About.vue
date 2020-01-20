@@ -12,7 +12,7 @@
 
     <v-card class="mb-3">
       <v-card-title primary-title>
-        <h3 class="headline mb-0">Unser Sponsoren</h3>
+        <h3 class="headline mb-0">Unsere Sponsoren</h3>
       </v-card-title>
       <v-img
         :key="sponsor.img"

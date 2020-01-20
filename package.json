@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy production": "rsync -r --del --progress dist/* Ch4s3r@ssh.austrian-squadron.at:nginx/www",
+    "deploy production": "vue-cli-service build && rsync -r --del --progress dist/* Ch4s3r@ssh.austrian-squadron.at:nginx/www",
     "deploy production (Windows)": "plink -no-antispoof -ssh Ch4s3r@ssh.austrian-squadron.at rm -rf nginx/www/* && pscp -r dist/* Ch4s3r@ssh.austrian-squadron.at:nginx/www && plink -no-antispoof -ssh Ch4s3r@ssh.austrian-squadron.at docker restart ch4s3r_nginx_1",
     "serve production": "vue-cli-service build && serve -l 8080 dist"
   },

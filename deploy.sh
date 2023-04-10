@@ -8,3 +8,4 @@ git add -A
 git commit -m 'deploy'
 git push -f git@github.com:ch4s3r/austrian-squadron.git main:gh-pages
 cd -
+rm -rf dist

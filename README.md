@@ -25,5 +25,11 @@ yarn run test
 yarn run lint
 ```
 
+### Deploy to github pages
+
+```shell
+sh deploy.sh
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

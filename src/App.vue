@@ -31,7 +31,7 @@
         @click.stop="drawer = !drawer"
         class="hidden-md-and-up"
       >
-        <v-icon large>fal fa-angle-left</v-icon>
+        <v-icon large>fa-solid fa-angle-left</v-icon>
       </v-toolbar-side-icon>
     </v-toolbar>
 
@@ -75,14 +75,14 @@ import { Component, Vue } from "vue-property-decorator";
 export default class App extends Vue {
   drawer = false;
   menu = [
-    // { iconClass: "fal fa-home", title: "Home", link: "/" },
-    // { iconClass: "fal fa-users", title: "Members", link: "/members" },
+    // { iconClass: "fa-solid fa-home", title: "Home", link: "/" },
+    // { iconClass: "fa-solid fa-users", title: "Members", link: "/members" },
     {
-      iconClass: "fal fa-trophy-alt",
+      iconClass: "fa-solid fa-trophy",
       title: "Hall of fame",
       link: "/hall-of-fame"
     },
-    { iconClass: "fal fa-bookmark", title: "About", link: "/" }
+    { iconClass: "fa-solid fa-bookmark", title: "About", link: "/" }
   ];
 }
 </script>
